@@ -1,0 +1,59 @@
+
+.table {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.table-header {
+  flex: 1;
+  flex-direction: row;
+  background-color: gray;
+}
+
+.header-cell, .table-cell {
+  display: inline-block;
+  vertical-align: center;
+}
+
+.header-cell:nth-child(1),
+.table-cell:nth-child(1),
+.header-cell:nth-child(2),
+.table-cell:nth-child(2) {
+  width: 40%;
+}
+
+
+.header-cell:nth-child(3),
+.table-cell:nth-child(3),
+.header-cell:nth-child(4),
+.table-cell:nth-child(4) {
+  width: 10%;
+}
+
+
+.table-body {
+  flex: 1;
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.table-row {
+  flex: 1;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.issue-label {
+  display: inline;
+  font-size: 12px;
+  background-color: rgb(142, 192, 135);
+  border-radius: 8px;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem; 
+  line-height: 2;
+}
+
+.left {
+  text-align: left;
+}
